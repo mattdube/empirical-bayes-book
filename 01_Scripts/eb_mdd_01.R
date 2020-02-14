@@ -22,7 +22,7 @@ hit_100 %>%
   theme_minimal()
 
 
-# wha itf our player got 60 hits, or 80, or 100?
+# what if our player got 60 hits, or 80, or 100?
 simulations %>%
   filter(hits %in% c(60, 80, 100)) %>%
   ggplot(aes(true_average, color=factor(hits))) +

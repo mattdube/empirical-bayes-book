@@ -1,5 +1,6 @@
 library(dplyr)
-library(tidry)
+library(ggplot2)
+library(tidyr)
 library(Lahman)
 library(data.table)
 library(stats4)
